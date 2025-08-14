@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="EurClima - Servicios de estado del tiempo">
+    <meta name="author" content="EurClima">
+    <meta http-equiv="“Pragma”" content="”no-cache”">
+    <meta http-equiv="“Expires”" content="”-1″">
+    <meta http-equiv="“CACHE-CONTROL”" content="”NO-CACHE”">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+
+    <title>API Project</title>
+</head>
+
+<body>
+    <nav class="container">
+        <h1>EurClima</h1>
+        <h3>Pronostico del tiempo europeo</h3>
+    </nav>
+    <main>
+        <select id="desplegable" class="ciudades">
+            <option value="">--Seleccione una ciudad--</option>
+        </select>
+        <div class="escala">
+            <p>Cambiar Escala</p>
+            <button id="cambiarEscala">Cambiar a °C</button>
+        </div>
+        <div class="section" id="pronostico"></div>
+    </main>
+    <footer>
+        <p class="copyright-text">© Copyright Edinson-Rivera 2025</p>
+    </footer>
+    
+    <script src="js/main.js"></script>
+</body>

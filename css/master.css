@@ -1,0 +1,89 @@
+body {
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.128), rgba(255, 255, 255, 0.065)),
+        url('https://www.cronica.com.ar/img/2024/10/08/lluvia-de-tormenta.jpg?__scale=w:1200,h:675,t:2,fpx:720,fpy:450');
+    background-size      : cover;
+    background-repeat    : no-repeat;
+    background-attachment: fixed;
+    color                : rgb(255, 255, 255);
+    margin               : 0;
+    display              : flex;
+    flex-direction       : column;
+    min-height           : 100vh;
+    align-items          : center;
+    text-align           : center;
+    font-family          : 'Poppins', sans-serif;
+}
+
+h1,
+h3 {
+    box-shadow   : 10px 5px 5px rgba(0, 0, 0, 0.168);
+    padding      : 0.5rem;
+    border-radius: 5px;
+}
+
+main {
+    flex: 1;
+}
+
+.ciudades {
+    padding      : 10px;
+    width        : 310px;
+    margin       : auto;
+    border-radius: 5px;
+}
+
+.escala p {
+    font-weight: bold;
+}
+
+.escala button {
+    border-radius   : 5px;
+    background-color: rgb(78, 79, 79);
+    color           : white;
+    padding         : 0.5rem;
+}
+
+.escala button:hover {
+    background-color: rgb(5, 5, 5);
+    color           : white;
+}
+
+.section {
+    display        : flex;
+    justify-content: center;
+    gap            : 8px;
+    margin         : 40px;
+    flex-wrap      : wrap;
+}
+
+.card {
+    width     : 150px;
+    max-height: auto;
+}
+
+main .section-one {
+    box-shadow   : 10px 5px 5px rgba(0, 0, 0, 0.662);
+    padding      : 0.5rem;
+    border-radius: 8px;
+}
+
+.section-one article>img {
+    width: 140px; 
+    object-fit: contain;
+    margin: auto;
+}
+
+.section-one article {
+    display        : flex;
+    justify-content: center;
+    flex-direction : column;
+}
+
+footer {
+    background-color: transparent;
+    text-align      : center;
+    padding         : 10px;
+    color           : rgb(222, 222, 222);
+    font-size       : 15px;
+}
